@@ -6,3 +6,6 @@ install-deps:
 	npm install
 
 publish: --dry-run
+
+lint:
+	npx eslint .
